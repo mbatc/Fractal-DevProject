@@ -1,0 +1,631 @@
+[
+  {
+    "UUID": "5db34798d5ae0d5d",
+    "Name": "Cube",
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Transform": {
+      "parent": null,
+      "position": [
+        4.290699,
+        0.000000,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    }
+  },
+  {
+    "UUID": "56b7929c46483bf4",
+    "Name": "Sun",
+    "Light": {
+      "type": 0,
+      "diffuse": [
+        0.556962,
+        0.411199,
+        0.227955,
+        1.000000
+      ],
+      "ambient": [
+        0.135021,
+        0.128828,
+        0.079759,
+        1.000000
+      ],
+      "strength": 1.000000,
+      "falloff": 1.000000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    },
+    "Transform": {
+      "parent": null,
+      "position": [
+        -0.137077,
+        0.000000,
+        0.000000
+      ],
+      "scale": [
+        0.999999,
+        0.999999,
+        0.999997
+      ],
+      "orientation": [
+        -0.259285,
+        0.258818,
+        0.066658,
+        0.928085
+      ]
+    }
+  },
+  {
+    "UUID": "7d90753a1799d312",
+    "Name": "Skybox",
+    "Skybox": {
+      "texture": {
+        "type": "texture-cube-map",
+        "uri": "~/skybox/clouds-blue"
+      }
+    }
+  },
+  {
+    "Perspective Projection": {
+      "fov": 1.221730,
+      "near": 0.100000,
+      "far": 1000.000000,
+      "viewport": [
+        0.000000,
+        0.000000,
+        1.000000,
+        1.000000
+      ]
+    },
+    "UUID": "06e6c0d99ffa9015",
+    "Name": "Camera",
+    "Transform": {
+      "parent": null,
+      "position": [
+        -2.941240,
+        1.871448,
+        2.258901
+      ],
+      "scale": [
+        0.999999,
+        1.000000,
+        0.999999
+      ],
+      "orientation": [
+        -0.277265,
+        -0.399959,
+        -0.126420,
+        0.864393
+      ]
+    }
+  },
+  {
+    "UUID": "ddd7b6aadee0ccd3",
+    "Name": "Point Light",
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        1.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 5.000000,
+      "falloff": 0.200000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    },
+    "Transform": {
+      "parent": null,
+      "position": [
+        -4.477131,
+        0.000000,
+        -3.829154
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    }
+  },
+  {
+    "UUID": "cb3cb1d7feaab6fd",
+    "Name": "Cube",
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Transform": {
+      "parent": null,
+      "position": [
+        0.000000,
+        -1.124560,
+        0.000000
+      ],
+      "scale": [
+        4.820000,
+        0.053718,
+        4.820000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    }
+  },
+  {
+    "UUID": "e7f3dd76fa12ca12",
+    "Name": "Point Light",
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        0.126582,
+        1.000000,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 5.000000,
+      "falloff": 0.200000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    },
+    "Transform": {
+      "parent": null,
+      "position": [
+        3.667191,
+        0.000000,
+        -3.465523
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    }
+  },
+  {
+    "UUID": "391a4e8f17231af0",
+    "Name": "Point Light",
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 5.000000,
+      "falloff": 0.100000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    },
+    "Transform": {
+      "parent": "06e6c0d99ffa9015",
+      "position": [
+        0.000000,
+        0.000000,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    }
+  },
+  {
+    "UUID": "04c2538f0be136fb",
+    "Name": "Spot Light",
+    "Light": {
+      "type": 2,
+      "diffuse": [
+        1.000000,
+        0.257384,
+        0.896598,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 30.000000,
+      "falloff": 0.006000,
+      "inner-angle": 0.506145,
+      "outer-angle": 0.523599
+    },
+    "Transform": {
+      "parent": "06e6c0d99ffa9015",
+      "position": [
+        0.000000,
+        0.000000,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    }
+  },
+  {
+    "UUID": "af3d59948c2f4e44",
+    "Name": "sponza",
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#0"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#1"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#2"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#3"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#4"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#5"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#6"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#7"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#8"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#9"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#10"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#11"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#12"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#13"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#14"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#15"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#16"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#17"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#18"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#19"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#20"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#21"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#22"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#23"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\googledrive\Documents\Models\Test Models\Sponza\sponza.obj#24"
+          }
+        }
+      ]
+    },
+    "Transform": {
+      "parent": null,
+      "position": [
+        0.000000,
+        -1.508664,
+        0.000000
+      ],
+      "scale": [
+        0.017772,
+        0.017772,
+        0.017772
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    }
+  }
+]

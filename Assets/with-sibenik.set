@@ -1,0 +1,318 @@
+[
+  {
+    "UUID": "c3fe75da6d26b474",
+    "Name": "Cube",
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Transform": {
+      "parent": null,
+      "position": [
+        0.000000,
+        0.000000,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    }
+  },
+  {
+    "UUID": "1ea04269343b9749",
+    "Name": "Sun",
+    "Light": {
+      "type": 0,
+      "diffuse": [
+        1.000000,
+        0.800000,
+        0.600000,
+        1.000000
+      ],
+      "ambient": [
+        0.200000,
+        0.200000,
+        0.500000,
+        1.000000
+      ],
+      "strength": 1.000000,
+      "falloff": 1.000000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    },
+    "Transform": {
+      "parent": null,
+      "position": [
+        0.000000,
+        0.000000,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.126079,
+        0.256605,
+        -0.033783,
+        0.957662
+      ]
+    }
+  },
+  {
+    "UUID": "7613c7e1da4c2206",
+    "Name": "Skybox",
+    "Skybox": {
+      "texture": {
+        "type": "texture-cube-map",
+        "uri": "~/skybox/clouds-blue"
+      }
+    }
+  },
+  {
+    "Perspective Projection": {
+      "fov": 1.221730,
+      "near": 0.100000,
+      "far": 1000.000000,
+      "viewport": [
+        0.000000,
+        0.000000,
+        1.000000,
+        1.000000
+      ]
+    },
+    "UUID": "4baf1888724a8dd7",
+    "Name": "Camera",
+    "Transform": {
+      "parent": null,
+      "position": [
+        0.000000,
+        2.000000,
+        3.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    }
+  },
+  {
+    "UUID": "b641451fbce6d258",
+    "Name": "sibenik",
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj#0"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj#1"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj#2"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj#3"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj#4"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj#5"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj#6"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj#7"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj#8"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj#9"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj#10"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj#11"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj#12"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj#13"
+          }
+        },
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "D:\dev\Games\TestProject\Assets\models\Sibenik Cathedral\sibenik.obj#14"
+          }
+        }
+      ]
+    },
+    "Transform": {
+      "parent": null,
+      "position": [
+        -4.625781,
+        0.000000,
+        0.000000
+      ],
+      "scale": [
+        0.100000,
+        0.100000,
+        0.100000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    }
+  }
+]

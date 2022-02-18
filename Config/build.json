@@ -1,0 +1,134 @@
+{
+  "project": "TestProject",
+  "project-dir": "D:/dev/Games/TestProject",
+  "configurations": [
+    {
+      "key": "",
+      "value": {
+        "links": [
+          "FractalEngine"
+        ],
+        "library-dirs": [
+          "D:/dev/Fractal/builds/bin",
+          "."
+        ],
+        "include-dirs": [
+          "D:/dev/Fractal/builds/bin/../../Engine/include/",
+          "D:/dev/Fractal/builds/bin/../../3rdParty/glm/"
+        ],
+        "intermediate-dir": "Build"
+      }
+    },
+    {
+      "key": "Debug",
+      "value": {
+        "static-runtime": 0,
+        "debug-runtime": 1,
+        "symbols": 1,
+        "optimize": 0,
+        "edit-and-continue": 0,
+        "fp-model": 1,
+        "defines": [
+          "DEBUG"
+        ]
+      }
+    },
+    {
+      "key": "Release",
+      "value": {
+        "static-runtime": 0,
+        "debug-runtime": 0,
+        "symbols": 1,
+        "optimize": 1,
+        "edit-and-continue": 0,
+        "fp-model": 0,
+        "flags": [
+          "LinkTimeOptimization"
+        ],
+        "build-options": [
+          "/MP"
+        ],
+        "defines": [
+          "NDEBUG"
+        ]
+      }
+    }
+  ],
+  "modules": [
+    {
+      "name": "ConfigurationManager",
+      "directory": "Modules/ConfigurationManager",
+      "target-directory": "D:/dev/Games/TestProject/Artifacts",
+      "target-name": "ConfigurationManager_500",
+      "target-type": 1,
+      "files": [
+        "./**.h",
+        "./**.cpp",
+        "./**.inl"
+      ],
+      "configurations": [
+        {
+          "key": "",
+          "value": {
+            "include-dirs": [
+              "./include/",
+              "./public/",
+              "./"
+            ],
+            "intermediate-dir": "../../Build/ConfigurationManager"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Physics",
+      "directory": "Modules/Physics",
+      "target-directory": "D:/dev/Games/TestProject/Artifacts",
+      "target-name": "Physics_169",
+      "target-type": 1,
+      "files": [
+        "./**.h",
+        "./**.cpp",
+        "./**.inl"
+      ],
+      "configurations": [
+        {
+          "key": "",
+          "value": {
+            "include-dirs": [
+              "./include/",
+              "./public/",
+              "./"
+            ],
+            "intermediate-dir": "../../Build/Physics"
+          }
+        }
+      ]
+    },
+    {
+      "name": "TestProject",
+      "directory": "Modules/TestProject",
+      "target-directory": "D:/dev/Games/TestProject/Artifacts",
+      "target-name": "TestProject_724",
+      "target-type": 1,
+      "files": [
+        "./**.h",
+        "./**.cpp",
+        "./**.inl"
+      ],
+      "configurations": [
+        {
+          "key": "",
+          "value": {
+            "include-dirs": [
+              "./include/",
+              "./public/",
+              "./"
+            ],
+            "intermediate-dir": "../../Build/TestProject"
+          }
+        }
+      ]
+    }
+  ]
+}

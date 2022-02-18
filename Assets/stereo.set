@@ -1,0 +1,225 @@
+[
+  {
+    "UUID": "c57e5a083bdd098e",
+    "Name": "Sun",
+    "Light": {
+      "type": 0,
+      "diffuse": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "ambient": [
+        0.202532,
+        0.202530,
+        0.202530,
+        1.000000
+      ],
+      "strength": 1.000000,
+      "falloff": 1.000000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    },
+    "Transform": {
+      "parent": null,
+      "position": [
+        0.000000,
+        0.000000,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        -0.576257,
+        0.562085,
+        0.300321,
+        0.511659
+      ]
+    }
+  },
+  {
+    "UUID": "ea4cb29e89ad6da2",
+    "Name": "Cube",
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Transform": {
+      "parent": "281d8df5b2c0b4c1",
+      "position": [
+        0.000000,
+        -0.091467,
+        0.039492
+      ],
+      "scale": [
+        0.038379,
+        0.038378,
+        0.036661
+      ],
+      "orientation": [
+        0.698490,
+        0.000000,
+        0.000000,
+        0.715620
+      ]
+    }
+  },
+  {
+    "Perspective Projection": {
+      "fov": 1.221730,
+      "near": 0.100000,
+      "far": 1000.000000,
+      "viewport": [
+        0.500000,
+        0.000000,
+        0.500000,
+        1.000000
+      ]
+    },
+    "UUID": "920251b03913c646",
+    "Name": "Left Eye",
+    "Transform": {
+      "parent": "0138b51942f3cd79",
+      "position": [
+        -0.032500,
+        0.000000,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    }
+  },
+  {
+    "UUID": "281d8df5b2c0b4c1",
+    "Name": "Quad",
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/quad"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/quad"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/quad#0"
+          }
+        }
+      ]
+    },
+    "Transform": {
+      "parent": null,
+      "position": [
+        0.000000,
+        -0.722878,
+        -3.374034
+      ],
+      "scale": [
+        26.055897,
+        27.277536,
+        26.055880
+      ],
+      "orientation": [
+        -0.698084,
+        0.000000,
+        0.000000,
+        0.716016
+      ]
+    }
+  },
+  {
+    "Perspective Projection": {
+      "fov": 1.221730,
+      "near": 0.100000,
+      "far": 1000.000000,
+      "viewport": [
+        0.000000,
+        0.000000,
+        0.500000,
+        1.000000
+      ]
+    },
+    "UUID": "24c1e5a1d4662e3a",
+    "Name": "Right Eye",
+    "Transform": {
+      "parent": "0138b51942f3cd79",
+      "position": [
+        0.032500,
+        0.000000,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    }
+  },
+  {
+    "UUID": "0138b51942f3cd79",
+    "Name": "Head",
+    "Transform": {
+      "parent": null,
+      "position": [
+        1.583838,
+        1.511457,
+        1.482529
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    }
+  }
+]

@@ -6,9 +6,18 @@
 # User-specific files
 *.rsuser
 *.suo
-*.user
 *.userosscache
 *.sln.docstates
+
+# Ignore project files
+*.user
+*.filters
+*.vcxproj
+*.sln
+
+# Ignore premake files
+project.lua
+premake.lua
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

@@ -1,0 +1,133 @@
+[
+  {
+    "UUID": "ecd6afeefff9c534",
+    "Name": "Cube",
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Transform": {
+      "parent": null,
+      "position": [
+        0.000000,
+        0.000000,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    }
+  },
+  {
+    "UUID": "83a10050bba69996",
+    "Name": "Sun",
+    "Light": {
+      "type": 0,
+      "diffuse": [
+        1.000000,
+        0.800000,
+        0.600000,
+        1.000000
+      ],
+      "ambient": [
+        0.200000,
+        0.200000,
+        0.500000,
+        1.000000
+      ],
+      "strength": 1.000000,
+      "falloff": 1.000000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    },
+    "Transform": {
+      "parent": null,
+      "position": [
+        0.000000,
+        0.000000,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.126079,
+        0.256605,
+        -0.033783,
+        0.957662
+      ]
+    }
+  },
+  {
+    "UUID": "fb3d56a299696a25",
+    "Name": "Skybox",
+    "Skybox": {
+      "texture": {
+        "type": "texture-cube-map",
+        "uri": "~/skybox/clouds-blue"
+      }
+    }
+  },
+  {
+    "Perspective Projection": {
+      "fov": 1.221730,
+      "near": 0.100000,
+      "far": 1000.000000,
+      "viewport": [
+        0.000000,
+        0.000000,
+        1.000000,
+        1.000000
+      ]
+    },
+    "UUID": "7ae12cb677a00804",
+    "Name": "Camera",
+    "Transform": {
+      "parent": null,
+      "position": [
+        0.000000,
+        2.000000,
+        3.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    }
+  }
+]

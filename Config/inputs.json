@@ -1,0 +1,50 @@
+{
+  "back": [
+    {
+      "device": "keyboard0",
+      "device-input": "S",
+      "sensitivity": 1.000000,
+      "input-type": 0
+    }
+  ],
+  "forward": [
+    {
+      "device": "keyboard0",
+      "device-input": "W",
+      "sensitivity": 1.000000,
+      "input-type": 0
+    }
+  ],
+  "up": [
+    {
+      "device": "keyboard0",
+      "device-input": "E",
+      "sensitivity": 1.000000,
+      "input-type": 0
+    }
+  ],
+  "left": [
+    {
+      "device": "keyboard0",
+      "device-input": "A",
+      "sensitivity": 1.000000,
+      "input-type": 0
+    }
+  ],
+  "down": [
+    {
+      "device": "keyboard0",
+      "device-input": "X",
+      "sensitivity": 1.000000,
+      "input-type": 0
+    }
+  ],
+  "right": [
+    {
+      "device": "keyboard0",
+      "device-input": "D",
+      "sensitivity": 1.000000,
+      "input-type": 0
+    }
+  ]
+}

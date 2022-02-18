@@ -1,0 +1,2193 @@
+[
+  {
+    "UUID": "0d08948c01fb05e3",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": null,
+      "position": [
+        -0.266807,
+        0.072875,
+        -6.764739
+      ],
+      "scale": [
+        6.303985,
+        1.398536,
+        0.272252
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "447e43efe082bb3b",
+    "Name": "Sun",
+    "Transform": {
+      "parent": null,
+      "position": [
+        0.000000,
+        0.000000,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        -0.391106,
+        0.414145,
+        -0.064711,
+        0.819349
+      ]
+    },
+    "Light": {
+      "type": 0,
+      "diffuse": [
+        0.489451,
+        0.407876,
+        0.326301,
+        1.000000
+      ],
+      "ambient": [
+        0.200000,
+        0.200000,
+        0.500000,
+        1.000000
+      ],
+      "strength": 1.000000,
+      "falloff": 1.000000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "600e998aa4f3676b",
+    "Name": "Skybox",
+    "Skybox": {
+      "texture": {
+        "type": "texture-cube-map",
+        "uri": "~/skybox/clouds-blue"
+      }
+    }
+  },
+  {
+    "Perspective Projection": {
+      "fov": 1.221730,
+      "near": 0.100000,
+      "far": 1000.000000,
+      "viewport": [
+        0.000000,
+        0.000000,
+        1.000000,
+        1.000000
+      ]
+    },
+    "UUID": "a1fe0f6e464454d9",
+    "Name": "Camera",
+    "Transform": {
+      "parent": null,
+      "position": [
+        0.000000,
+        3.087386,
+        5.239912
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    }
+  },
+  {
+    "UUID": "dd500ea55860c301",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "b9e83b895ea6225f",
+      "position": [
+        3.116322,
+        3.491406,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "b829e94cc98e763b",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "5d43bd4b26f639ae",
+      "position": [
+        3.116322,
+        3.491406,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "5d43bd4b26f639ae",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": null,
+      "position": [
+        0.475143,
+        2.511612,
+        -14.736784
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "004171165e1920b6",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "5d43bd4b26f639ae",
+      "position": [
+        -3.060271,
+        1.843211,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "3a2e7eaec514be87",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "848068296f43ca56",
+      "position": [
+        0.475143,
+        3.094161,
+        -6.331794
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "ad3e59452827ff33",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "3a2e7eaec514be87",
+      "position": [
+        -3.060271,
+        1.843211,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "f28b2076a072550a",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "3a2e7eaec514be87",
+      "position": [
+        3.116322,
+        3.491406,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "848068296f43ca56",
+    "Name": "Cube",
+    "Transform": {
+      "parent": null,
+      "position": [
+        -2.465851,
+        -12.581305,
+        3.703199
+      ],
+      "scale": [
+        6.941400,
+        0.174694,
+        6.941400
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "UUID": "7c10e0422dfd95a6",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "848068296f43ca56",
+      "position": [
+        0.475143,
+        0.561885,
+        2.372375
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "765cfb21c6c9eef0",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "7c10e0422dfd95a6",
+      "position": [
+        -3.060271,
+        1.843211,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "1747493d68a3676a",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "7c10e0422dfd95a6",
+      "position": [
+        3.116322,
+        3.491406,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "b9e83b895ea6225f",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": null,
+      "position": [
+        0.475143,
+        2.511612,
+        -14.736784
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "628ffbc20c966ef1",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "b9e83b895ea6225f",
+      "position": [
+        -3.060271,
+        1.843211,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "fa285f9cccf210a7",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "ed93fb6768ec66c4",
+      "position": [
+        3.116322,
+        3.491406,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "fe7d3006de139bb6",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "ed93fb6768ec66c4",
+      "position": [
+        -3.060271,
+        1.843211,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "ed93fb6768ec66c4",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "f6152ff5dcecc31a",
+      "position": [
+        0.475143,
+        0.284835,
+        -2.775241
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "5fa30a2159d47efc",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "4c9faa4fa525ecc6",
+      "position": [
+        3.116322,
+        3.491406,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "fed597624caa398b",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "4c9faa4fa525ecc6",
+      "position": [
+        -3.060271,
+        1.843211,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "4c9faa4fa525ecc6",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "f6152ff5dcecc31a",
+      "position": [
+        0.475143,
+        2.511612,
+        -14.736784
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "48bbc2c00ffda644",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "bffc91f2a747f215",
+      "position": [
+        3.116322,
+        3.491406,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "596d282089f37f68",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "bffc91f2a747f215",
+      "position": [
+        -3.060271,
+        1.843211,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "bffc91f2a747f215",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "f6152ff5dcecc31a",
+      "position": [
+        0.475143,
+        3.094161,
+        -6.331794
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "4d033005714f0afe",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "c30c513d9004add1",
+      "position": [
+        3.116322,
+        3.491406,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "643710858defb424",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "c30c513d9004add1",
+      "position": [
+        -3.060271,
+        1.843211,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "c30c513d9004add1",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "f6152ff5dcecc31a",
+      "position": [
+        0.475143,
+        0.561885,
+        2.372375
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "f6152ff5dcecc31a",
+    "Name": "Cube",
+    "Transform": {
+      "parent": null,
+      "position": [
+        0.000000,
+        -7.170501,
+        0.000000
+      ],
+      "scale": [
+        6.941400,
+        0.174694,
+        6.941400
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "UUID": "7e8dcb7098bca100",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "848068296f43ca56",
+      "position": [
+        0.475143,
+        2.511612,
+        -14.736784
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "33590caf76ccf803",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "7e8dcb7098bca100",
+      "position": [
+        -3.060271,
+        1.843211,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "b2237f7f19d99ca9",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "7e8dcb7098bca100",
+      "position": [
+        3.116322,
+        3.491406,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "c85d6762988515fd",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "e6fa545be79c0003",
+      "position": [
+        3.116322,
+        3.491406,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "27f960837cdfaf7c",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "e6fa545be79c0003",
+      "position": [
+        -3.060271,
+        1.843211,
+        0.000000
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  },
+  {
+    "UUID": "e6fa545be79c0003",
+    "Name": "Cube",
+    "Input": null,
+    "Transform": {
+      "parent": "848068296f43ca56",
+      "position": [
+        0.475143,
+        0.284835,
+        -2.775241
+      ],
+      "scale": [
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "orientation": [
+        0.000000,
+        0.000000,
+        0.000000,
+        1.000000
+      ]
+    },
+    "Mesh": {
+      "mesh": {
+        "type": "mesh",
+        "uri": "~/mesh/cube"
+      },
+      "render-mesh": {
+        "type": "render-mesh",
+        "uri": "~/mesh/cube"
+      },
+      "sub-meshes": [
+        {
+          "shader": {
+            "type": "shader-program",
+            "uri": "~/shader/blinn-phong"
+          },
+          "material": {
+            "type": "material",
+            "uri": "~/mesh/cube#0"
+          }
+        }
+      ]
+    },
+    "Light": {
+      "type": 1,
+      "diffuse": [
+        0.000000,
+        1.000000,
+        0.886075,
+        1.000000
+      ],
+      "ambient": [
+        1.000000,
+        1.000000,
+        1.000000,
+        1.000000
+      ],
+      "strength": 3.000000,
+      "falloff": 0.500000,
+      "inner-angle": 0.436332,
+      "outer-angle": 0.523599
+    }
+  }
+]
