@@ -2,6 +2,8 @@
 
 namespace Fractal
 {
+  flREGISTER_MODULE_STATIC(BulletPhysicsModule);
+
   static btVector3 ToBullet(Vec3D vec)
   {
     return { (btScalar)vec.x, (btScalar)vec.y, (btScalar)vec.z };
@@ -15,6 +17,26 @@ namespace Fractal
   static btQuaternion ToBullet(QuatD ori)
   {
     return { (btScalar)ori.x, (btScalar)ori.y, (btScalar)ori.z, (btScalar)ori.w };
+  }
+
+  static Vec3D FromBullet(btVector3 vec)
+  {
+    return { (double)vec.x(), (double)vec.y(), (double)vec.z() };
+  }
+
+  static Vec4D FromBullet(btVector4 vec)
+  {
+    return { (double)vec.x(), (double)vec.y(), (double)vec.z(), (double)vec.w() };
+  }
+
+  static QuatD FromBullet(btQuaternion ori)
+  {
+    return { (double)ori.x(), (double)ori.y(), (double)ori.z(), (double)ori.w() };
+  }
+
+  BulletPhysicsSceneExtension::~BulletPhysicsSceneExtension()
+  {
+    flDelete(m_pWorld);
   }
 
   UpdatePolicy BulletPhysicsSceneExtension::GetUpdatePolicy() const
@@ -33,16 +55,24 @@ namespace Fractal
 
   void BulletPhysicsSceneExtension::OnPreUpdate()
   {
-    GetScene()->ForEach<RigidbodyComponent>(
+    GetScene()->ForEach<TransformComponent, RigidbodyComponent>(
       [=](SceneEntity entity)
       {
         RigidbodyComponent &rigidbody = entity.GetComponent<RigidbodyComponent>();
         if (rigidbody.pBody == nullptr)
           CreateCollisionShape(entity, &rigidbody);
+
+        btVector3    pos = rigidbody.pBody->getWorldTransform().getOrigin();
+        btQuaternion ori = rigidbody.pBody->getWorldTransform().getRotation();
+
+        TransformComponent &transform = entity.GetTransform();
+        transform.worldTransform.position    = FromBullet(pos);
+        transform.worldTransform.orientation = FromBullet(ori);
+        transform.RecalculateLocalTransform();
       }
     );
 
-    m_pWorld->stepSimulation(1 / 60);
+    m_pWorld->stepSimulation(1.0 / 60);
     m_pWorld->applyGravity();
   }
 
@@ -75,6 +105,9 @@ namespace Fractal
 
     pRigidbody->pShape->setLocalScaling(ToBullet(pTransform->worldTransform.scale));
     pRigidbody->pBody->setWorldTransform(transform);
+    pRigidbody->pBody->setGravity({ 0, -10, 0 });
+
+    m_pWorld->addRigidBody(pRigidbody->pBody.get());
   }
 
   bool BulletPhysicsModule::OnInit()

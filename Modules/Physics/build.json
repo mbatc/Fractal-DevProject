@@ -2,7 +2,7 @@
   "name": "Physics",
   "directory": "Modules/Physics",
   "target-directory": "../../Artifacts",
-  "target-name": "Physics_358",
+  "target-name": "Physics_153",
   "target-type": 1,
   "files": [
     "./**.h",
@@ -13,11 +13,14 @@
     {
       "key": "",
       "value": {
+        "defines": [
+          "__BT_DISABLE_SSE__"
+        ],
         "include-dirs": [
           "./include/",
           "./public/",
           "./",
-          "./bullet3/include/"
+          "./bullet3/"
         ],
         "intermediate-dir": "../../Build/Physics"
       }

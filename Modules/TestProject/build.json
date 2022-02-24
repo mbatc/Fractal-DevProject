@@ -2,7 +2,7 @@
   "name": "TestProject",
   "directory": "Modules/TestProject",
   "target-directory": "../../Artifacts",
-  "target-name": "TestProject_478",
+  "target-name": "TestProject_292",
   "target-type": 1,
   "files": [
     "./**.h",

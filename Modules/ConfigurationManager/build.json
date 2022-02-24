@@ -2,7 +2,7 @@
   "name": "ConfigurationManager",
   "directory": "Modules/ConfigurationManager",
   "target-directory": "../../Artifacts",
-  "target-name": "ConfigurationManager_467",
+  "target-name": "ConfigurationManager_902",
   "target-type": 1,
   "files": [
     "./**.h",

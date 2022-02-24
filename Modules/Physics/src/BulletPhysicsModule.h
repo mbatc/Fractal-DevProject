@@ -2,7 +2,7 @@
 
 #include "flEngine.h"
 
-#include "bullet3/include/btBulletDynamicsCommon.h"
+#include "btBulletDynamicsCommon.h"
 
 namespace Fractal
 {
@@ -41,10 +41,12 @@ namespace Fractal
   class BulletPhysicsSceneExtension : public SceneExtension
   {
   public:
+    ~BulletPhysicsSceneExtension();
+
     virtual UpdatePolicy GetUpdatePolicy() const override;
 
     virtual void OnCreate();
-
+    
     virtual void OnPreUpdate();
     virtual void OnUpdate();
 
@@ -60,6 +62,7 @@ namespace Fractal
 
   class BulletPhysicsModule : public Module
   {
+    FRACTAL_DEFAULT_INTERFACE(BulletPhysicsModule, Module);
   public:
     virtual bool OnInit() override;
 
