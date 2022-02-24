@@ -1,0 +1,26 @@
+{
+  "name": "Physics",
+  "directory": "Modules/Physics",
+  "target-directory": "../../Artifacts",
+  "target-name": "Physics_358",
+  "target-type": 1,
+  "files": [
+    "./**.h",
+    "./**.cpp",
+    "./**.inl"
+  ],
+  "configurations": [
+    {
+      "key": "",
+      "value": {
+        "include-dirs": [
+          "./include/",
+          "./public/",
+          "./",
+          "./bullet3/include/"
+        ],
+        "intermediate-dir": "../../Build/Physics"
+      }
+    }
+  ]
+}

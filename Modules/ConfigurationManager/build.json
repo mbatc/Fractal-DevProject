@@ -1,0 +1,25 @@
+{
+  "name": "ConfigurationManager",
+  "directory": "Modules/ConfigurationManager",
+  "target-directory": "../../Artifacts",
+  "target-name": "ConfigurationManager_467",
+  "target-type": 1,
+  "files": [
+    "./**.h",
+    "./**.cpp",
+    "./**.inl"
+  ],
+  "configurations": [
+    {
+      "key": "",
+      "value": {
+        "include-dirs": [
+          "./include/",
+          "./public/",
+          "./"
+        ],
+        "intermediate-dir": "../../Build/ConfigurationManager"
+      }
+    }
+  ]
+}

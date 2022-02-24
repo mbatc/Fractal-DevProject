@@ -4,20 +4,17 @@
 
 namespace Fractal
 {
-  namespace UI
+  class BuildConfigurationPanel : public UI::Panel
   {
-    class BuildConfigurationPanel : public Panel
-    {
-    public:
-      bool OnGUI() override;
+  public:
+    bool OnGUI() override;
 
-      std::string GetTitle() override;
+    std::string GetTitle() override;
 
-    private:
-      std::string SelectedModuleTitle(BuildTool *pTool) const;
+  private:
+    std::string SelectedModuleTitle(BuildTool *pTool) const;
 
-      int64_t m_selectedModule = -1;
-      std::string m_selectConfig = "";
-    };
-  }
+    int64_t m_selectedModule = -1;
+    std::string m_selectConfig = "";
+  };
 }

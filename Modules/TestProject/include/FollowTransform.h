@@ -28,7 +28,7 @@ namespace TestProject
   protected:
     bool OnGUI() override
     {
-      clicked |= Widgets::Button("Click Me 2!");
+      clicked |= Widgets::Selectable("This is a whole new button!", false);
 
       if (clicked)
         Widgets::Label("You clicked me 2!");

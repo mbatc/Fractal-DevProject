@@ -1,0 +1,25 @@
+{
+  "name": "TestProject",
+  "directory": "Modules/TestProject",
+  "target-directory": "../../Artifacts",
+  "target-name": "TestProject_478",
+  "target-type": 1,
+  "files": [
+    "./**.h",
+    "./**.cpp",
+    "./**.inl"
+  ],
+  "configurations": [
+    {
+      "key": "",
+      "value": {
+        "include-dirs": [
+          "./include/",
+          "./public/",
+          "./"
+        ],
+        "intermediate-dir": "../../Build/TestProject"
+      }
+    }
+  ]
+}

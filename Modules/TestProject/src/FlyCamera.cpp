@@ -3,14 +3,14 @@
 
 namespace TestProject
 {
-  flREGISTER_COMPONENT(FollowTransform, "Follow Transform");
-  flREGISTER_COMPONENT(FlyCamera,       "Fly Camera");
+  flREGISTER_COMPONENT_STATIC(FollowTransform, "Follow Transform");
+  flREGISTER_COMPONENT_STATIC(FlyCamera,       "Fly Camera");
 
-  flREGISTER_PANEL(MyCustomPanel);
+  flREGISTER_PANEL_STATIC(MyCustomPanel);
 
   void OpenMyPanel()
   {
-    IUIManager *pManager = Fractal_GetApplication()->GetModule<IUIManager>();
+    UIManager *pManager = Fractal_GetApplication()->GetModule<UIManager>();
     UI::IView *pEditorView = pManager->GetView("Editor"); // Get the editor view
     pEditorView->OpenOrAdd<TestProject::MyCustomPanel>();
   }
@@ -21,7 +21,7 @@ extern "C" {
   {
     flInfo("Initializing my plugin");
 
-    IUIManager *pManager = Fractal_GetApplication()->GetModule<IUIManager>();
+    UIManager *pManager = Fractal_GetApplication()->GetModule<UIManager>();
     UI::IView *pEditorView = pManager->GetView("Editor"); // Get the editor view
     pEditorView->AddMenuItem("Window/My Custom Panel", MakeTask([]() { TestProject::OpenMyPanel(); return 0; }));
   }

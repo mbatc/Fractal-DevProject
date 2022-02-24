@@ -1,6 +1,6 @@
 {
-  "project": "TestProject",
-  "project-dir": "D:/dev/Games/TestProject",
+  "project": "Fractal-DevProject",
+  "project-dir": "D:/dev/Fractal-DevProject",
   "configurations": [
     {
       "key": "",
@@ -52,83 +52,6 @@
           "NDEBUG"
         ]
       }
-    }
-  ],
-  "modules": [
-    {
-      "name": "ConfigurationManager",
-      "directory": "Modules/ConfigurationManager",
-      "target-directory": "D:/dev/Games/TestProject/Artifacts",
-      "target-name": "ConfigurationManager_500",
-      "target-type": 1,
-      "files": [
-        "./**.h",
-        "./**.cpp",
-        "./**.inl"
-      ],
-      "configurations": [
-        {
-          "key": "",
-          "value": {
-            "include-dirs": [
-              "./include/",
-              "./public/",
-              "./"
-            ],
-            "intermediate-dir": "../../Build/ConfigurationManager"
-          }
-        }
-      ]
-    },
-    {
-      "name": "Physics",
-      "directory": "Modules/Physics",
-      "target-directory": "D:/dev/Games/TestProject/Artifacts",
-      "target-name": "Physics_169",
-      "target-type": 1,
-      "files": [
-        "./**.h",
-        "./**.cpp",
-        "./**.inl"
-      ],
-      "configurations": [
-        {
-          "key": "",
-          "value": {
-            "include-dirs": [
-              "./include/",
-              "./public/",
-              "./"
-            ],
-            "intermediate-dir": "../../Build/Physics"
-          }
-        }
-      ]
-    },
-    {
-      "name": "TestProject",
-      "directory": "Modules/TestProject",
-      "target-directory": "D:/dev/Games/TestProject/Artifacts",
-      "target-name": "TestProject_724",
-      "target-type": 1,
-      "files": [
-        "./**.h",
-        "./**.cpp",
-        "./**.inl"
-      ],
-      "configurations": [
-        {
-          "key": "",
-          "value": {
-            "include-dirs": [
-              "./include/",
-              "./public/",
-              "./"
-            ],
-            "intermediate-dir": "../../Build/TestProject"
-          }
-        }
-      ]
     }
   ]
 }
